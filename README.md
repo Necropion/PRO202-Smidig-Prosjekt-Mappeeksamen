@@ -3,7 +3,7 @@
 ### Karakter: B
 
 I vårt Smidig Prosjekt fikk vi denne problemstillingen fra KPMG:
-Vi har et stort ubrukt TV i midten av kontoret, vi vil gjerne ha et applikasjon som kan vise forskjellig informasjon på den.
+Vi har et stort ubrukt TV i midten av kontoret, vi vil gjerne ha en applikasjon som kan vise forskjellig informasjon på den.
 
 Løsningen vår er en applikasjon som lar brukeren opprette og administrere en samling av slides, kalt et "prosjekt", som kan redigeres og settes som aktivt. Det kan kun være ett aktivt prosjekt om gangen som vises på TV-skjermen, men brukeren kan fritt redigere hvilket som helst prosjekt. Endringer i det aktive prosjektet vil automatisk oppdatere TV-skjermen, og spille av den nye samlingen av slides. Brukeren kan velge mellom tre forskjellige maler for hver slide og tilpasse innholdet på den valgte sliden. For en praktisk demonstrasjon kan man se en introduksjonsvideo av applikasjonen rett etter innlogging. Slides kan ha text/bilder og video og alt vises på displat siden av applikasjonen.
 
