@@ -1,0 +1,26 @@
+.display-video-container {
+    display: flex;
+    width: 90%;
+    height: 90vh;
+    box-sizing: border-box;
+    margin: 50px;
+    padding-left: 100px;
+}
+
+.display-video-box {
+    width: 98%;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+}
+
+.display-video-player {
+    width: 100%;
+    height: 100%;
+    border: none;
+}

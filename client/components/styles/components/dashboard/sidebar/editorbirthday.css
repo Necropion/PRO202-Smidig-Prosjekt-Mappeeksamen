@@ -1,0 +1,10 @@
+.alternative-desc {
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.alternative-desc textarea {
+    height: 250px;
+    width: 100%;
+}

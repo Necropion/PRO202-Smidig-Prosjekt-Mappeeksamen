@@ -1,0 +1,47 @@
+.display-birthday-container {
+    display: flex;
+    width: 90%;
+    height: 90vh;
+    box-sizing: border-box;
+    margin: 50px;
+    padding-left: 100px;
+}
+
+.display-birthday-box {
+    width: 98%;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.81), rgba(255, 255, 255, 0.81)), url("../../../resources/images/birthday_background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.display-birthday-title {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.display-birthday-imagePerson {
+    border: white 2px solid;
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.display-birthday-desc {
+    width: 100%;
+    height: 25%;
+    word-break: break-all;
+    overflow: auto;
+}

@@ -1,0 +1,70 @@
+.container h1 {
+    margin-bottom: 2%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    margin: 1%;
+}
+
+.corner-logo {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    top: 0%;
+    left: 1%;
+}
+
+.back-button-project {
+    margin-top: 5%;
+    padding: 10px 20px;
+    background-color: #003087;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.back-button-project:hover {
+    background-color: #023fb2;
+    cursor: pointer;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 60%;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    width: 90%;
+}
+
+.project-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #eeeeee;
+}
+
+.project-header {
+    background-color: #2053b2; /* Original inline color */
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.project-body{
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+    vertical-align: auto;
+    background-color: #4b86d7;
+    color: white;
+}

@@ -1,0 +1,220 @@
+.slides-main {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 5% 95%;
+    align-items: center;
+    justify-items: center;
+}
+
+.slides-main h1 {
+    padding-top: 55px;
+}
+
+.slides-container {
+    width: 100%;
+    height: 100%;
+    max-width: 75vmax;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+}
+
+.loading-text {
+    padding-left: 480px;
+    font-size: x-large;
+}
+
+.slides-card {
+    width: 300px;
+    height: 250px;
+    color: ghostwhite;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: auto;
+    transition: box-shadow .3s;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    float: left;
+}
+.slides-card:hover {
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.remove-slides-card {
+    width: 300px;
+    height: 250px;
+    color: ghostwhite;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: auto;
+}
+
+.remove-slides-card:hover {
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.294); 
+}
+
+/* Menu Slide Card */
+
+.slides-menu-container {
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.slides-menu-box {
+    width: 150%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px 0 0 10px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.slides-menu-box {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+}
+
+.slides-menu-box h2 {
+    font-family: 'helvetica';
+    font-weight: 1000;
+    font-size: 10px;
+    margin-bottom: 4px;
+    color: #00102d;
+}
+
+.slides-menu-box h3 {
+    font-family: 'helvetica';
+    font-weight: 1000;
+    font-size: 6px;
+    margin-bottom: 4px;
+    color: #00102d;
+}
+
+.slides-menu-box .slides-menu-input {
+    font-family: 'helvetica';
+    font-size: 5px;
+    margin-bottom: 4px;
+    color: #00102d;
+}
+
+.slides-menu-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.slides-menu-content .slides-menu-input {
+    margin-bottom: 8px;
+}
+
+.slides-menu-image-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    object-fit: cover;
+
+}
+
+.slides-menu-image-box img {
+    height: 200%;
+    width: 100%;
+}
+
+/* Birthday Slide Card */
+
+.slides-birthday-container {
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.slides-birthday-box {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: url("../../../../resources/images/birthday_background.png");
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slides-birthday-title {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-size: small;
+}
+
+.slides-birthday-image-person {
+    border: white 2px solid;
+    width: 50%;
+    height: 60%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.slides-birthday-image-announcement {
+    border: white 2px solid;
+    width: 50%;
+    height: 60%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.slides-birthday-desc {
+    flex: 1; /* Description takes up the other half */
+    font-size: xx-small;
+    word-break: keep-all;
+    overflow: auto;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 10px;
+}
+
+/* Video Slide Card */
+
+.slides-video-container {
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.slides-video-box {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slides-video-thumbnail{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,91 @@
+.settings-sidebar {
+    min-width: 15vmax;
+    padding: 10px; /* Reduced padding */
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Reduced gap between sections */
+}
+
+.settings-sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px; /* Reduced margin */
+    font-size: 12px;
+}
+
+.settings-sidebar h3 {
+    font-size: 1.2rem;
+    margin-top: 5px; /* Reduced margin */
+    margin-bottom: 5px; /* Reduced margin to create consistent spacing */
+}
+
+.settings-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Removed default margin */
+}
+
+.settings-sidebar li {
+    margin: 3px 0; /* Reduced margin */
+}
+
+.settings-sidebar .size-control,
+.settings-sidebar .move-buttons {
+    margin-top: 5px; /* Reduced margin */
+}
+
+.settings-sidebar .buttons {
+    margin-top: 5px; /* Reduced margin */
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Reduced gap between buttons */
+}
+
+.settings-sidebar button {
+    display: block;
+    width: 100%;
+    padding: 10px; /* Adjusted padding */
+    cursor: pointer;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #003087;
+    color: white;
+    margin-bottom: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.settings-sidebar input[type=text] {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  .settings-sidebar .move-button, .settings-sidebar button {
+    padding: 8px; /* Reduced padding */
+    cursor: pointer;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.settings-sidebar .back-button {
+    position: absolute;
+    left: 48%;
+    bottom: 15%;
+    padding: 10px 20px;
+    background-color: #003087;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.settings-sidebar .back-button:hover, .settings-sidebar .move-button:hover {
+    background-color: #023fb2;
+    cursor: pointer;
+}
