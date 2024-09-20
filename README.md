@@ -1,13 +1,17 @@
-# lightbeam
+# PRO202-Smidig Prosjekt Mappeeksamen
 
-### Link to the Application: (main)
-https://lightbeam-smidig-55777de13a55.herokuapp.com/
+### Karakter: B
 
-### Link to the dev page: (dev)
-https://lightbeam-smidig-dev-393006ce2df9.herokuapp.com/
+### Link til applikasjonen som er deployet for testing på heroku:
 
-### To run the application locally - Write the following on top level to trigger client and server:
-npm run dev
 
-### Local link: 
-http://localhost:1234/
+### Lokalt Testing
+
+For å kjøre lokalt trenger applikasjonen 3 Environment Variables som skal ligge inne på et .env fil i server mappen:
+- PORT for lokal server å kjøre
+- MONGO_URI for at applikasjonen skal kunne lagre data
+- COOKIE_SECRET for autentisering av bruker
+
+1. npm install
+2. npm run postinstall
+3. npm run dev
