@@ -27,6 +27,7 @@ For å kjøre lokalt trenger applikasjonen 3 Environment Variables som skal ligg
 Og en variabel i .env.local fil som skal ligge i client mappen:
 - REACT_APP_WEBSOCKET=ws://localhost:PORT/(PORT skal være porten som backend serveren kjører på)
 
+Kjør disse kommandoene i root mappen av prosjektet for og så kjøre appen:
 1. npm install
 2. npm run postinstall
 3. npm run dev
